@@ -107,8 +107,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: tuberculosis-sequelae---primary/output
-  progressive-tuberculosis---primary:
-    run: progressive-tuberculosis---primary.cwl
+  personal-tuberculosis---primary:
+    run: personal-tuberculosis---primary.cwl
     out:
     - output
     in:
@@ -128,7 +128,7 @@ steps:
         source: inputModule12
       potentialCases:
         id: potentialCases
-        source: progressive-tuberculosis---primary/output
+        source: personal-tuberculosis---primary/output
   gastrointestinal-tuberculosis---primary:
     run: gastrointestinal-tuberculosis---primary.cwl
     out:
@@ -349,8 +349,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: tuberculosis-notification---primary/output
-  tuberculosis-tissue---primary:
-    run: tuberculosis-tissue---primary.cwl
+  progressive-tuberculosis---primary:
+    run: progressive-tuberculosis---primary.cwl
     out:
     - output
     in:
@@ -360,6 +360,17 @@ steps:
       potentialCases:
         id: potentialCases
         source: peripheral-tuberculosis---primary/output
+  tuberculosis-tissue---primary:
+    run: tuberculosis-tissue---primary.cwl
+    out:
+    - output
+    in:
+      inputModule:
+        id: inputModule
+        source: inputModule34
+      potentialCases:
+        id: potentialCases
+        source: progressive-tuberculosis---primary/output
   tuberculosis-pericarditis---primary:
     run: tuberculosis-pericarditis---primary.cwl
     out:
@@ -367,7 +378,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule34
+        source: inputModule35
       potentialCases:
         id: potentialCases
         source: tuberculosis-tissue---primary/output
@@ -378,7 +389,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule35
+        source: inputModule36
       potentialCases:
         id: potentialCases
         source: tuberculosis-pericarditis---primary/output
@@ -389,7 +400,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule36
+        source: inputModule37
       potentialCases:
         id: potentialCases
         source: tuberculosis-myelitis---primary/output
@@ -400,7 +411,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule37
+        source: inputModule38
       potentialCases:
         id: potentialCases
         source: tuberculosis-nodosum---primary/output
@@ -411,7 +422,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule38
+        source: inputModule39
       potentialCases:
         id: potentialCases
         source: tuberculosis-brain---primary/output
@@ -422,7 +433,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule39
+        source: inputModule40
       potentialCases:
         id: potentialCases
         source: tuberculosis-bones---primary/output
@@ -433,7 +444,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule40
+        source: inputModule41
       potentialCases:
         id: potentialCases
         source: tuberculosis-intestine---primary/output
@@ -444,7 +455,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule41
+        source: inputModule42
       potentialCases:
         id: potentialCases
         source: tuberculosis-joint---primary/output
@@ -455,7 +466,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule42
+        source: inputModule43
       potentialCases:
         id: potentialCases
         source: tuberculosis-gland---primary/output
@@ -466,7 +477,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule43
+        source: inputModule44
       potentialCases:
         id: potentialCases
         source: tuberculosis-isolated---primary/output
@@ -477,7 +488,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule44
+        source: inputModule45
       potentialCases:
         id: potentialCases
         source: tuberculosis-cutis---primary/output
@@ -488,7 +499,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule45
+        source: inputModule46
       potentialCases:
         id: potentialCases
         source: tuberculosis-bronchu---primary/output
@@ -499,7 +510,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule46
+        source: inputModule47
       potentialCases:
         id: potentialCases
         source: resistant-tuberculosis---primary/output
@@ -510,7 +521,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule47
+        source: inputModule48
       potentialCases:
         id: potentialCases
         source: tuberculosis-meninge---primary/output
@@ -521,7 +532,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule48
+        source: inputModule49
       potentialCases:
         id: potentialCases
         source: tuberculosis-culture---primary/output
@@ -532,7 +543,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule49
+        source: inputModule50
       potentialCases:
         id: potentialCases
         source: multiple-tuberculosis---primary/output
@@ -543,7 +554,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule50
+        source: inputModule51
       potentialCases:
         id: potentialCases
         source: tuberculosis-histol---primary/output
@@ -554,7 +565,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule51
+        source: inputModule52
       potentialCases:
         id: potentialCases
         source: tuberculosis-encephalitis---primary/output
@@ -565,7 +576,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule52
+        source: inputModule53
       potentialCases:
         id: potentialCases
         source: tuberculosis-kidney---primary/output
@@ -576,7 +587,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule53
+        source: inputModule54
       potentialCases:
         id: potentialCases
         source: acute-tuberculosis---primary/output
@@ -587,7 +598,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule54
+        source: inputModule55
       potentialCases:
         id: potentialCases
         source: tuberculosis-associated---primary/output
@@ -598,7 +609,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule55
+        source: inputModule56
       potentialCases:
         id: potentialCases
         source: tuberculosis-salpingitis---primary/output
@@ -609,7 +620,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule56
+        source: inputModule57
       potentialCases:
         id: potentialCases
         source: tuberculosis-organ---primary/output
@@ -620,7 +631,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule57
+        source: inputModule58
       potentialCases:
         id: potentialCases
         source: tracheal-tuberculosis---primary/output
@@ -631,7 +642,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule58
+        source: inputModule59
       potentialCases:
         id: potentialCases
         source: tuberculosis-inflammatory---primary/output
@@ -642,7 +653,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule59
+        source: inputModule60
       potentialCases:
         id: potentialCases
         source: other-tuberculosis---primary/output
@@ -653,7 +664,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule60
+        source: inputModule61
       potentialCases:
         id: potentialCases
         source: pelvic-tuberculosis---primary/output
@@ -664,7 +675,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule61
+        source: inputModule62
       potentialCases:
         id: potentialCases
         source: tuberculosis-cystitis---primary/output
@@ -675,7 +686,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule62
+        source: inputModule63
       potentialCases:
         id: potentialCases
         source: mesenteric-tuberculosis---primary/output
@@ -927,6 +938,10 @@ inputs:
     type: File
   inputModule62:
     id: inputModule62
+    doc: Python implementation unit
+    type: File
+  inputModule63:
+    id: inputModule63
     doc: Python implementation unit
     type: File
 outputs:

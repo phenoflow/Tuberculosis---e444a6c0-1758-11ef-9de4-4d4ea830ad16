@@ -30,7 +30,7 @@ inputModule10:
   path: python/cervical-tuberculosis---primary.py
 inputModule11:
   class: File
-  path: python/progressive-tuberculosis---primary.py
+  path: python/personal-tuberculosis---primary.py
 inputModule12:
   class: File
   path: python/tuberculosis-spine---primary.py
@@ -96,91 +96,94 @@ inputModule32:
   path: python/peripheral-tuberculosis---primary.py
 inputModule33:
   class: File
-  path: python/tuberculosis-tissue---primary.py
+  path: python/progressive-tuberculosis---primary.py
 inputModule34:
   class: File
-  path: python/tuberculosis-pericarditis---primary.py
+  path: python/tuberculosis-tissue---primary.py
 inputModule35:
   class: File
-  path: python/tuberculosis-myelitis---primary.py
+  path: python/tuberculosis-pericarditis---primary.py
 inputModule36:
   class: File
-  path: python/tuberculosis-nodosum---primary.py
+  path: python/tuberculosis-myelitis---primary.py
 inputModule37:
   class: File
-  path: python/tuberculosis-brain---primary.py
+  path: python/tuberculosis-nodosum---primary.py
 inputModule38:
   class: File
-  path: python/tuberculosis-bones---primary.py
+  path: python/tuberculosis-brain---primary.py
 inputModule39:
   class: File
-  path: python/tuberculosis-intestine---primary.py
+  path: python/tuberculosis-bones---primary.py
 inputModule40:
   class: File
-  path: python/tuberculosis-joint---primary.py
+  path: python/tuberculosis-intestine---primary.py
 inputModule41:
   class: File
-  path: python/tuberculosis-gland---primary.py
+  path: python/tuberculosis-joint---primary.py
 inputModule42:
   class: File
-  path: python/tuberculosis-isolated---primary.py
+  path: python/tuberculosis-gland---primary.py
 inputModule43:
   class: File
-  path: python/tuberculosis-cutis---primary.py
+  path: python/tuberculosis-isolated---primary.py
 inputModule44:
   class: File
-  path: python/tuberculosis-bronchu---primary.py
+  path: python/tuberculosis-cutis---primary.py
 inputModule45:
   class: File
-  path: python/resistant-tuberculosis---primary.py
+  path: python/tuberculosis-bronchu---primary.py
 inputModule46:
   class: File
-  path: python/tuberculosis-meninge---primary.py
+  path: python/resistant-tuberculosis---primary.py
 inputModule47:
   class: File
-  path: python/tuberculosis-culture---primary.py
+  path: python/tuberculosis-meninge---primary.py
 inputModule48:
   class: File
-  path: python/multiple-tuberculosis---primary.py
+  path: python/tuberculosis-culture---primary.py
 inputModule49:
   class: File
-  path: python/tuberculosis-histol---primary.py
+  path: python/multiple-tuberculosis---primary.py
 inputModule50:
   class: File
-  path: python/tuberculosis-encephalitis---primary.py
+  path: python/tuberculosis-histol---primary.py
 inputModule51:
   class: File
-  path: python/tuberculosis-kidney---primary.py
+  path: python/tuberculosis-encephalitis---primary.py
 inputModule52:
   class: File
-  path: python/acute-tuberculosis---primary.py
+  path: python/tuberculosis-kidney---primary.py
 inputModule53:
   class: File
-  path: python/tuberculosis-associated---primary.py
+  path: python/acute-tuberculosis---primary.py
 inputModule54:
   class: File
-  path: python/tuberculosis-salpingitis---primary.py
+  path: python/tuberculosis-associated---primary.py
 inputModule55:
   class: File
-  path: python/tuberculosis-organ---primary.py
+  path: python/tuberculosis-salpingitis---primary.py
 inputModule56:
   class: File
-  path: python/tracheal-tuberculosis---primary.py
+  path: python/tuberculosis-organ---primary.py
 inputModule57:
   class: File
-  path: python/tuberculosis-inflammatory---primary.py
+  path: python/tracheal-tuberculosis---primary.py
 inputModule58:
   class: File
-  path: python/other-tuberculosis---primary.py
+  path: python/tuberculosis-inflammatory---primary.py
 inputModule59:
   class: File
-  path: python/pelvic-tuberculosis---primary.py
+  path: python/other-tuberculosis---primary.py
 inputModule60:
   class: File
-  path: python/tuberculosis-cystitis---primary.py
+  path: python/pelvic-tuberculosis---primary.py
 inputModule61:
   class: File
-  path: python/mesenteric-tuberculosis---primary.py
+  path: python/tuberculosis-cystitis---primary.py
 inputModule62:
+  class: File
+  path: python/mesenteric-tuberculosis---primary.py
+inputModule63:
   class: File
   path: python/output-cases.py
