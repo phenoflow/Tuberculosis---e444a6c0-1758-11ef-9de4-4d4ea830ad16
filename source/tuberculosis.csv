@@ -342,8 +342,6 @@ AyuJ200,readv2
 B90,readv2
 N304000,readv2
 ZV12A00,readv2
-A10y.00,readv2
-A101.00,readv2
 ZV12B00,readv2
 N304.11,readv2
 N304.00,readv2
@@ -426,6 +424,8 @@ A171.00,readv2
 65V9.00,readv2
 A172.00,readv2
 A172z00,readv2
+A10y.00,readv2
+A101.00,readv2
 A170.00,readv2
 A170z00,readv2
 G500311,readv2
